@@ -2,63 +2,69 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Automonne – Gestion devis & factures garage</title>
+<title>Automonne – Gestion intelligente pour garages</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {
 margin: 0;
 font-family: Arial, sans-serif;
-background: #111;
-color: #eee;
+background: #0f0f0f;
+color: #f2f2f2;
 line-height: 1.6;
 }
 header {
-background: #1c1c1c;
-padding: 50px 20px;
+background: linear-gradient(135deg, #111, #1f1f1f);
+padding: 70px 20px;
 text-align: center;
 }
 header h1 {
 color: #ff7a00;
-font-size: 36px;
+font-size: 42px;
 margin-bottom: 10px;
+letter-spacing: 1px;
 }
 header p {
-max-width: 800px;
+max-width: 900px;
 margin: auto;
-font-size: 18px;
+font-size: 20px;
+opacity: 0.9;
 }
 .btn {
 display: inline-block;
-margin-top: 20px;
-padding: 14px 28px;
+margin-top: 30px;
+padding: 16px 34px;
 background: #ff7a00;
 color: #111;
 text-decoration: none;
 font-weight: bold;
-border-radius: 6px;
+border-radius: 8px;
+font-size: 16px;
 }
 section {
-max-width: 1000px;
+max-width: 1100px;
 margin: auto;
-padding: 50px 20px;
+padding: 60px 20px;
 }
 h2 {
 color: #ff7a00;
-margin-bottom: 20px;
+margin-bottom: 30px;
+font-size: 28px;
+}
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 20px;
 }
 .box {
-background: #1e1e1e;
-padding: 20px;
-border-radius: 8px;
-margin-bottom: 20px;
-}
-ul {
-padding-left: 20px;
+background: #1b1b1b;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 footer {
 background: #000;
 text-align: center;
-padding: 20px;
+padding: 25px;
 font-size: 14px;
 color: #aaa;
 }
@@ -69,84 +75,62 @@ color: #aaa;
 <header>
 <h1>Automonne</h1>
 <p>
-Le système simple pour gérer devis, factures, pièces et clients
-dans votre garage.
+Gérez votre garage plus vite, plus proprement, sans paperasse.<br>
+Devis signés en ligne, factures clients & pièces, suivi complet des véhicules.
 </p>
-<a class="btn" href="https://wa.me/33600000000">Démo gratuite sur WhatsApp</a>
+<a class="btn" href="https://wa.me/330768384708?text=Bonjour%2C%20je%20souhaite%20une%20démo%20Automonne">
+Demander une démo gratuite
+</a>
 </header>
 
 <section>
-<h2>Les problèmes des garages</h2>
-<div class="box">
-<ul>
-<li>Devis non signés ou oubliés</li>
-<li>Factures faites à la main</li>
-<li>Infos clients et véhicules éparpillées</li>
-<li>Références pièces difficiles à retrouver</li>
-</ul>
+<h2>Les problèmes du quotidien en garage</h2>
+<div class="grid">
+<div class="box">Devis non signés ou oubliés</div>
+<div class="box">Factures faites à la main</div>
+<div class="box">Infos clients et véhicules dispersées</div>
+<div class="box">Références pièces introuvables</div>
 </div>
 </section>
 
 <section>
 <h2>La solution Automonne</h2>
-
+<div class="grid">
 <div class="box">
-<strong>✍️ Devis avec signature électronique</strong>
-<ul>
-<li>Signature à distance</li>
-<li>Date et validation tracées</li>
-<li>Conversion devis → facture</li>
-</ul>
+<strong>✍️ Devis avec signature électronique</strong><br>
+Vos clients signent à distance, plus rapidement.
 </div>
-
 <div class="box">
-<strong>🧾 Factures complètes</strong>
-<ul>
-<li>Factures clients</li>
-<li>Factures de pièces détachées</li>
-<li>Références pièces enregistrables</li>
-<li>Main d’œuvre séparée</li>
-<li>Numérotation automatique</li>
-</ul>
+<strong>🧾 Factures complètes</strong><br>
+Clients, pièces, main d’œuvre, références enregistrées.
 </div>
-
 <div class="box">
-<strong>👤 Clients & véhicules</strong>
-<ul>
-<li>Nom, téléphone, email</li>
-<li>Véhicule lié au client</li>
-<li>Immatriculation</li>
-<li>VIN</li>
-<li>Kilométrage</li>
-<li>Historique des interventions</li>
-</ul>
+<strong>👤 Clients & véhicules</strong><br>
+Immatriculation, VIN, kilométrage, historique.
 </div>
-
 <div class="box">
-<strong>🔁 Suivi & rappels</strong>
-<ul>
-<li>Rappels entretien</li>
-<li>Rappels contrôle technique</li>
-<li>Relances clients</li>
-</ul>
+<strong>🔁 Suivi & rappels</strong><br>
+Entretien, contrôle technique, relances.
+</div>
 </div>
 </section>
 
 <section>
-<h2>Pourquoi Automonne</h2>
+<h2>Pourquoi choisir Automonne</h2>
 <div class="box">
 <p>
-Automonne est conçu par un étudiant en BTS mécanique auto,
-pour les garages et indépendants.
+Automonne est une solution pensée pour les garages,
+orientée terrain, efficacité et simplicité.
 </p>
 <p>
-Simple, clair, efficace. Pas une usine à gaz.
+Pas de logiciel compliqué. Pas de perte de temps.
+Juste un système clair qui fonctionne.
 </p>
 </div>
 </section>
 
 <footer>
-© 2025 Automonne – Solution de gestion pour garages
+© 2025 Automonne – Gestion intelligente pour garages
 </footer>
 
 </body>
